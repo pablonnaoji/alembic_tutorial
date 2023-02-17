@@ -2,7 +2,7 @@
 
 A FastAPI + Alembic + Sqlalchemy tutorial written by: Paul C. Nnaoji
 
-Step 1) Clone the repo. (For a finished version of this tutorial switch to the "finished" branch. Run `docker volume create --name=postgres_data`, and then go into the running alembic_tutorial-web-1 container from here run `alembic upgrade head` this will create the tables in your db. From here login to pgadmin and run this insert to create data `INSERT INTO users (user_id,name) VALUES ('c2d29867-3d0b-d497-9191-18a9d8ee7830', 'Gandalf')`. Now you can go to your FastAPI GUI and query all users. Congrats! You should see the data you inserted via pgadmin! )
+Step 1) Clone the repo. (For a finished version of this tutorial switch to the "finished" branch. Run `docker volume create --name=postgres_data`, and then go into the running alembic_tutorial-web-1 container from here run `alembic upgrade head` this will create the tables in your db. Next login to pgadmin (use the credentials found in docker-compose.yml file) and run this insert to create data `INSERT INTO users (user_id,name) VALUES ('c2d29867-3d0b-d497-9191-18a9d8ee7830', 'Gandalf')`. Now you can go to your FastAPI GUI and query all users. Congrats! You should see the data you inserted via pgadmin! )
 
 The Following Instructions below are for those who want to set up alembic from scratch in the `main` branch.
 
