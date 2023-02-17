@@ -24,7 +24,7 @@ Step 9) - Create a FastAPI endpoint to test your data. (See the "finished" branc
 
 Step 10) Write a SQL Query in your FastAPI project and use your db connection object to execute the query.
 
-Step 11) Return your data as a dictionary. Congrats you’ve got a working FastPAI application with SQLAlchemy and Alemic!
+Step 11) Return your data as a dictionary. Congrats you’ve got a working FastPAI application with SQLAlchemy and Alembic!
 
 Potential next steps? Create a `POST` request to create more `User` data or add another column to your `User` table and migrate those changes so that your DB gets those latest changes.
 
